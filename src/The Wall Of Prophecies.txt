@@ -26,3 +26,14 @@ this will set the stage for the entire game's GUI
 -- bottom bar is the button interface where you can open your inventory, fight, search, loot, open map, and other stuff idk 
 
 I wanna make everything intractable and Ethan gave a good idea of tracking the mouses coords so i can make certain things intractable based on where it is
+
+Phin edit 9/8/26
+we should write edits like this so i can see who is adding what and what date to keep tracks of things.
+but ANYWAY for stats I'm thinking of:
+- Health 
+- Strength (base strength + weapon stat)
+- Defense (cause I want there to be armor)
+- Agility/Stamia idk whichever makes more sense
+
+Above the player stats, the location should display - and maybe Objectve ? but I'm not exactly sure what objectives there would be so maybe not.
+and below the player stats should be the things you have equipped
