@@ -1,0 +1,28 @@
+# Main Gameplay Ideas
+## Travel 
+I want there to be travel between destinations that will give you the options to search, loot, fight (if encountered) or move onto the next. 
+- These places would be separate webpages, each with their own routes and logic 
+- searching, looting, and fighting can be global buttons on each page
+- not exactly sure how i want that to look right now -- i think there should be a bar on the left side with buttons for each area and maybe some other stats (like where they are, if they've looted all the places, etc) 
+- I want there to be rooms within rooms, but we don't need separate pages for that 
+## Searching + Looting
+There should be a set number of places to search in each room. There should be a counter for how many spots people have gotten.
+- Maybe an array of different items you can get, or i can do an if-else statement LMAO (if check = true, get this item, else this item, else this item) but that wouldnt be that great cause there needs to be different rarities on them meaning they have different numbers assigned to them or different chances
+- you can loot enemies you kill too. there should be a loot table kinda thing 
+## Fighting 
+i think turn based is MUCH easier to code so that should be it. I think depending on how far you go from your camp, the harder the enemies. 
+- zombies, raiders, other.. things..
+- maybe we do some plants vs zombies shit wheres theres a bunch of different kinds of zombies and different loot you get from them 
+## Map
+I wanna make a map !!!!!!! which wouldnt be hard at all to add, just a button that displays a picture. wouldnt have any icons or anything on it, so you just gotta look where you are and then make your move type shit.
+- maybe if you're two or more places from your base, it'll be too hard to go back so you have to travel back to the spot before and then go back home, like back tracking ya know 
+
+# ROOM ONE (aka CAMP)
+this will set the stage for the entire game's GUI 
+- here is where we make the map button as well. im not sure if i should make it a separate component or just do it in the Camp file 
+- decided that we're gonna play as an already established character. I also want there to be a little message at the beginning that explains the situation from the character's POV and how to play basically. there should be a button to close the tab (same as the "do you wanna go first" box that i did for sticks) 
+- GUI: left most box is the interface where you can see what's going on.
+-- right box is where the stats, objective, location, and equipped items will be shown 
+-- bottom bar is the button interface where you can open your inventory, fight, search, loot, open map, and other stuff idk 
+
+I wanna make everything intractable and Ethan gave a good idea of tracking the mouses coords so i can make certain things intractable based on where it is
