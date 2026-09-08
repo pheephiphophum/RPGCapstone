@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import { Link, useNavigate } from 'react-router-dom'
-import Fart from '../assets/zombies-hands.png'
+import Background from '../assets/zombies-hands.png'
 import "../styles/Home.css"
 
 function Home(){
@@ -11,7 +11,7 @@ function Home(){
                 <h1>They're Coming...</h1>
                 <h2>Can You Survive?</h2>
                 <p>An apocolypse survival, puzzle RPG Roguelike</p>
-                <img src={Fart} className="bgImg"/>
+                <img src={Background} className="bgImg"/>
                 <Link to='/roomone'>
                     <button className='button'>START</button>
                 </Link>
