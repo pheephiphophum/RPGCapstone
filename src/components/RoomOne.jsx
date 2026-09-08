@@ -1,16 +1,21 @@
 import { Routes, Route } from 'react-router-dom'
 import { Link, useNavigate } from 'react-router-dom'
-import Profile from '../assets/download20260905131048.png'
+import ProfileIcon from '../assets/download20260905131048.png'
+import Background from '../assets/zombies-hands.png'
 import '../styles/roomOne.css'
 
 function Camp(){
 
     return(
         <>
-            <div className='statBox'>
-                
+            <img src={Background} className="bgImg"/>
+            <div className='gameBorder'>
+
             </div>
             <div className='interactBox'>
+
+            </div>
+            <div className='statBox'>
 
             </div>
             <div className='buttonBox'>
