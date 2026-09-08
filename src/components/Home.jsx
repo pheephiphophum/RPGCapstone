@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import { Link, useNavigate } from 'react-router-dom'
 import Fart from '../assets/zombies-hands.png'
-import "../App.css"
+import "../styles/Home.css"
 
 function Home(){
 
