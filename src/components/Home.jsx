@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import { Link, useNavigate } from 'react-router-dom'
-import Fart from '../assets/zombies-hands.png'
+import Background from '../assets/zombies-hands.png'
 import "../styles/Home.css"
 
 function Home(){
@@ -17,7 +17,7 @@ function Home(){
                     </Link>
                 </div>
                 
-                <img src={Fart} className="bgImg"/>
+                <img src={Background} className="bgImg"/>
                 
             </div>
             
