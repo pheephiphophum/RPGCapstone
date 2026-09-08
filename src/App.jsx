@@ -6,9 +6,6 @@ import RoomOne from './components/RoomOne'
 
 function App() {
   const [count, setCount] = useState(0)
-  // react router dom hooks
-  // use | create = react hook
-  // capital letter = component 
 
 
   return (
