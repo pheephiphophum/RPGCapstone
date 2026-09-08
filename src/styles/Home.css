@@ -9,7 +9,10 @@
 .homeScreen{
     color: white;
     text-align: center;
-    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50vh
 }
 
 .button{
@@ -26,13 +29,16 @@ button:hover{
 }
 
 .blackBox{
-    background-color: black;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
     z-index: -50;
-    top: 287px;
-    left: 725px;
     border-radius: 15px;
     height: 250px;
     width: 400px;
-    opacity: 0.5;
 }
