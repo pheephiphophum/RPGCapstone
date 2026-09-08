@@ -1,0 +1,38 @@
+.bgImg {
+    position: fixed;
+    z-index: -100;
+    top: 0;
+    left: 0;
+
+}
+
+.homeScreen{
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.button{
+    background-color: rgb(52, 111, 42);
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 1.25rem;      
+    padding: 0.75em 1.5em; 
+}
+
+button:hover{
+    background-color: rgb(110, 243, 172);
+    transform: translateY(-2px);
+}
+
+.blackBox{
+    background-color: black;
+    position: fixed;
+    z-index: -50;
+    top: 287px;
+    left: 725px;
+    border-radius: 15px;
+    height: 250px;
+    width: 400px;
+    opacity: 0.5;
+}
