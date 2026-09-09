@@ -5,31 +5,45 @@
     left: 0;
 }
 
+.gameContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    
+    padding-left: 0vw;
+    padding-top: 0vh;
+    padding-right: 0vw;
+    padding-bottom: 0vh;
+}
+
+.subContainer{
+    display: flex;
+ 
+}
+
 .interactBox{
     background-color: brown;
     border: 2px solid black;
-    margin-top: 4rem;
-    margin-left: 4rem;
-    height: 40rem;
-    width: 85rem;
+
+
+    height: 75vh;
+    width: 80vw;
 }
 
 .statBox{
     background-color: yellowgreen;
     border: 2px solid green;
-    position: absolute;
-    margin-right: 4rem;
-    margin-left: 89.2rem;
-    height: 40rem;
-    width: 20rem;
+
+    height: 75vh;
+    width: 10vw;
 }
 
 .buttonBox{
     background-color: tomato;
     border: 2px solid red;
-    position: relative;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    height: 10rem;
-    width: 105.2rem;
+
+    height: 15vh;
 }
