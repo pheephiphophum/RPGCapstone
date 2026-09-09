@@ -1,28 +1,35 @@
-.interactBox{
-    background-color: red;
+.bgImg {
     position: fixed;
+    z-index: -100;
     top: 0;
     left: 0;
-    height: 800px;
-    width: 1550px;
+}
+
+.interactBox{
+    background-color: brown;
+    border: 2px solid black;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    height: 40rem;
+    width: 85rem;
 }
 
 .statBox{
-    background-color: blue;
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 800px;
-    width: 305px;
+    background-color: yellowgreen;
+    border: 2px solid green;
+    position: absolute;
+    margin-right: 4rem;
+    margin-left: 89.2rem;
+    height: 40rem;
+    width: 20rem;
 }
 
 .buttonBox{
-    background-color: blueviolet;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 180px;
-    width: 2000px;
+    background-color: tomato;
+    border: 2px solid red;
+    position: relative;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    height: 10rem;
+    width: 105.2rem;
 }
-
