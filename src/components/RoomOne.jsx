@@ -9,21 +9,26 @@ function Camp(){
     return(
         <>
             <img src={Background} className="bgImg"/>
-            <div className='gameBorder'>
-            <div className='statBox'>
+            <div className='gameContainer'>
+                <div className='subContainer'>
+                    <div className='interactBox'>
 
-            </div>
-            <div className='interactBox'>
+                    </div>
 
+                    <div className='statBox'>
+
+                    </div>
+
+                </div>
+                <div className='buttonBox'>
+                    <button>Inventory</button>
+                    <button>Search</button>
+                    <button>Loot</button>
+                    <button>Map</button>
+                    <button>Fight</button>
+                </div>
             </div>
-            </div>
-            <div className='buttonBox'>
-                <button>Inventory</button>
-                <button>Search</button>
-                <button>Loot</button>
-                <button>Map</button>
-                <button>Fight</button>
-            </div>
+            
         </>
     )
 }
