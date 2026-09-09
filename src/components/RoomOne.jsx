@@ -10,12 +10,13 @@ function Camp(){
         <>
             <img src={Background} className="bgImg"/>
             <div className='gameBorder'>
+                
+            </div>
             <div className='statBox'>
 
             </div>
             <div className='interactBox'>
 
-            </div>
             </div>
             <div className='buttonBox'>
                 <button>Inventory</button>
