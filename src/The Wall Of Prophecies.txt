@@ -44,5 +44,6 @@ but ANYWAY for stats I'm thinking of:
 
 Above the player stats, the location should display - and maybe Objectve ? but I'm not exactly sure what objectives there would be so maybe not.
 and below the player stats should be the things you have equipped
+
 Ethan edit 9-9-26
 we should add a quicktime event based on the mouse click thingymabobber for the battle sequences
