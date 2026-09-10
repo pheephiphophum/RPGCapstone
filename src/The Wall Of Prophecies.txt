@@ -50,7 +50,7 @@ Artwork for box/background decorations
 Artwork for the map and locations
 Inventory screen 
 Crafting mechanic
-
+Remove item option for inventory
 
 -=-=-=-=-=-=-=-=-=-=-=-=- EDITS 
 Phin edit 9/8/26
