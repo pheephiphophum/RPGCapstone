@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     overflow-y: scroll;
     height: 75vh;
+    align-content: start;
     
     background-color: white;
 
