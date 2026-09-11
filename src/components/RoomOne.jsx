@@ -4,7 +4,7 @@ import ProfileIcon from '../assets/download20260905131048.png'
 import Background from '../assets/zombies-hands.png'
 import '../styles/roomOne.css'
 import { useEffect, useState } from 'react'
-import Inventory from '../components/Inventory'
+import Inventory from './InventoryPopup'
 import VisibilityToggle from '../hooks/ToggleVisibility'
 
 
