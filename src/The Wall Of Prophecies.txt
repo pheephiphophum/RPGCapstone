@@ -49,8 +49,10 @@ XP mechanic
 Artwork for box/background decorations
 Artwork for the map and locations
 Inventory screen 
-Crafting mechanic
+Crafting mechanic and menu
 Remove item option for inventory
+Importing sound effects from deltarune/undertale and other places
+
 
 -=-=-=-=-=-=-=-=-=-=-=-=- EDITS 
 Phin edit 9/8/26
