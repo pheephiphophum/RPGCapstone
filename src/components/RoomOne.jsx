@@ -4,8 +4,14 @@ import ProfileIcon from '../assets/download20260905131048.png'
 import Background from '../assets/gameBorder.png'
 import Stats from './Stats'
 import '../styles/roomOne.css'
+import { useEffect, useState } from 'react'
+import Inventory from './InventoryPopup'
+import VisibilityToggle from '../hooks/ToggleVisibility'
+
+
 
 function Camp(){
+    const { visibility, toggleVisibility } = VisibilityToggle()
 
     return(
         <>
@@ -13,6 +19,7 @@ function Camp(){
             <img src={Background} className="bgImg"/>
                 <div className='subContainer'>
                     <div className='interactBox'>
+                        <Inventory style={visibility}/>
 
                     </div>
 
@@ -22,7 +29,7 @@ function Camp(){
 
                 </div>
                 <div className='buttonBox'>
-                    <button>Inventory</button>
+                    <button onClick={toggleVisibility}>Inventory</button>
                     <button>Search</button>
                     <button>Loot</button>
                     <button>Map</button>
