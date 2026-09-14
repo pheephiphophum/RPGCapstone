@@ -1,4 +1,5 @@
-# Main Gameplay Ideas
+-=-=-=-=-=-=-=-=-=-=-=-=- Previous Ideas
+
 ## Travel 
 I want there to be travel between destinations that will give you the options to search, loot, fight (if encountered) or move onto the next. 
 - These places would be separate webpages, each with their own routes and logic 
@@ -25,8 +26,35 @@ this will set the stage for the entire game's GUI
 -- right box is where the stats, objective, location, and equipped items will be shown 
 -- bottom bar is the button interface where you can open your inventory, fight, search, loot, open map, and other stuff idk 
 
-I wanna make everything intractable and Ethan gave a good idea of tracking the mouses coords so i can make certain things intractable based on where it is
+# DATABASE
+I just had an amazing fantastical idea for the database
+so I can just create tables for all the enemies, (separate tables for zombies and raiders)
+weapons, food, loot, armor(idk if i'll do this one), and other stuffs 
 
+then I can call them all right, and create if/else statements for when things happen and all that 
+-# i don't really know how to make it more efficient because I don't understand react all that well, I understand JavaScript much better
+that way we don't have to right a bunch of logic for all the items and stuff, just how they can be used
+
+-=-=-=-=-=-=-=-=-=-=-=-=- LIST
+
+THING WE NEED/WANT TO DO 
+Fix the css so it works for all screens - CHECK
+Make data tables for items, weapons, and armors
+Make classes for enemies and the player
+MAYBE make a form so the player can change the name of the MC 
+CSS for the buttons
+Logic for the buttons 
+Quicktime event for battles
+XP mechanic 
+Artwork for box/background decorations
+Artwork for the map and locations
+Inventory screen 
+Crafting mechanic and menu
+Remove item option for inventory
+Importing sound effects from deltarune/undertale and other places
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=- EDITS 
 Phin edit 9/8/26
 we should write edits like this so i can see who is adding what and what date to keep tracks of things.
 but ANYWAY for stats I'm thinking of:
