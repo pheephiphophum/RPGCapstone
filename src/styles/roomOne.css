@@ -1,8 +1,6 @@
 .bgImg {
-    position: fixed;
-    z-index: -100;
-    top: 0;
-    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .gameContainer{
@@ -30,7 +28,7 @@
 
 
     height: 75vh;
-    width: 80vw;
+    width: 75vw;
 }
 
 .statBox{
@@ -38,7 +36,7 @@
     border: 2px solid green;
 
     height: 75vh;
-    width: 10vw;
+    width: 15vw;
 }
 
 .buttonBox{
