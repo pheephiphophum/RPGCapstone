@@ -1,9 +1,15 @@
 .inventoryOverlay{
+    width: 75vw;
+}                        
+                        
+
+.inventoryStorage   {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     overflow-y: scroll;
     height: 75vh;
+    width: 60%;
     align-content: start;
     
     background-color: white;
@@ -23,6 +29,6 @@
 
 .craftingMenu{
     display: flex;
-    width: 20rem;
+    width: 40%;
     background-color: blueviolet;   
 }
