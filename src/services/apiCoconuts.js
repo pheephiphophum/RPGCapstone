@@ -1,7 +1,7 @@
 import supabase from './supabase'
 
 export async function getCoconuts(){
-    const { data, error } = await supabase.from('Coconuts').select('*')
+    const { data, error } = await supabase.from('coconuts').select('*')
 
     if (error) {
         console.log(error)
@@ -12,7 +12,7 @@ export async function getCoconuts(){
 
 export async function deleteCoconuts(id) {
     console.log(id)
-    const { error } = await supabase.from('Coconuts').delete().eq('id', id)
+    const { error } = await supabase.from('coconuts').delete().eq('id', id)
     if (error) {
         console.error(error)
         throw new Error('Coconut could not be deleted.')
@@ -21,7 +21,7 @@ export async function deleteCoconuts(id) {
 
 export async function createEditCoconuts(newCoconuts, id){
     console.log(newCoconuts, id, "Hello, World!!")
-    let query = supabase.from('Coconuts')
+    let query = supabase.from('coconuts')
 
     if (!id) query = query.insert([{...newCoconuts}])
     
