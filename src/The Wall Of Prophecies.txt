@@ -52,7 +52,10 @@ Inventory screen
 Crafting mechanic and menu
 Remove item option for inventory
 Importing sound effects from deltarune/undertale and other places
-
+Modal for map
+Modal for inventory
+Modal for introduction
+Coordinate tracking for the mouse
 
 -=-=-=-=-=-=-=-=-=-=-=-=- EDITS 
 Phin edit 9/8/26
