@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 
 import '../styles/inventory.css'
+import modal from './modals'
 
 let itemsTemp
 // itemsTemp = ['sword', 'chestplate', 'booties', 'golden skull of rauhl', 'bagel', '1', '2', '3', '4', '5', '6', '7']
@@ -23,7 +24,7 @@ function Inventory({style}){
 
 
     
-    return(
+    return modal(
         <>
             
             <div className='inventoryOverlay'  style={style}> 
