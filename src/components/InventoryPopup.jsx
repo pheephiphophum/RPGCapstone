@@ -1,7 +1,11 @@
 import { useState, useEffect } from 'react'
 
 import '../styles/inventory.css'
+<<<<<<< HEAD
 import modal from './Modals'
+=======
+import Modal from './Modals'
+>>>>>>> bb08aecc1840b6e94ec9f67ffe83295aeb0aff44
 
 let itemsTemp
 // itemsTemp = ['sword', 'chestplate', 'booties', 'golden skull of rauhl', 'bagel', '1', '2', '3', '4', '5', '6', '7']
@@ -21,13 +25,13 @@ function Inventory({style}){
 
     const craftsList = craftsTemp 
 
-
+  
 
     
-    return modal(
+    return (
         <>
-            
-            <div className='inventoryOverlay'  style={style}> 
+        
+            <div className='inventoryOverlay' > 
                 <div className='craftingMenu'>
                     <p>crafting menu</p>
                 </div>
@@ -39,6 +43,8 @@ function Inventory({style}){
                 </div>
                 
             </div>
+        
+            
         </>
     )
 }

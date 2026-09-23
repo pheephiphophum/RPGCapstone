@@ -1,10 +1,17 @@
 import { createPortal } from "react-dom";
+import { useState } from "react";
 
-function modal({children}){
+function Modal({open, children}){
+    console.log('isopen', open)
+    if (!open) return null;
+    
+
     return createPortal(
-        children,
-        document.getElementById('modal-root')
+        <div>
+            {children}
+        </div>,
+        document.body
     )
 }
 
-export default modal
+export default Modal
