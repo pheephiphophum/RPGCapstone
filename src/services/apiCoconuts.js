@@ -10,6 +10,15 @@ export async function getCoconuts(){
     return data
 }
 
+export async function getCharacter(id){
+    const { data, error } = await supabase.from('coconuts').select('*').eq('id', id)
+    if(error){
+        console.log(error)
+        throw new Error('Could not get character')
+    }
+    return data
+}
+
 export async function deleteCoconuts(id) {
     console.log(id)
     const { error } = await supabase.from('coconuts').delete().eq('id', id)

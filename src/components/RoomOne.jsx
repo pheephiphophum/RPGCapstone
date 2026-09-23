@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import { Link, useNavigate } from 'react-router-dom'
 import ProfileIcon from '../assets/download20260905131048.png'
-import Background from '../assets/gameBorder.png'
+import Background from '../assets/stars.gif'
 import Stats from './Stats'
 import '../styles/roomOne.css'
 import { useEffect, useState } from 'react'

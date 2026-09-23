@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import { Link, useNavigate } from 'react-router-dom'
-import Background from '../assets/zombies-hands.png'
+import Background from '../assets/stars.gif'
 import "../styles/Home.css"
 
 function Home(){

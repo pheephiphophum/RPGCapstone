@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 import '../styles/inventory.css'
-import modal from './modals'
+import modal from './Modals'
 
 let itemsTemp
 // itemsTemp = ['sword', 'chestplate', 'booties', 'golden skull of rauhl', 'bagel', '1', '2', '3', '4', '5', '6', '7']

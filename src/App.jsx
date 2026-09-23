@@ -7,11 +7,7 @@ import { getCoconuts } from './services/apiCoconuts'
 function App() {
   const [count, setCount] = useState(0)
 
-  useEffect(function () {
-    getCoconuts().then((data) => console.log(data))
-  }, [])
-
-
+  
   return (
     <>
       <Routes>
