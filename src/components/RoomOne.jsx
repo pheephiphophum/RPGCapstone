@@ -7,11 +7,12 @@ import '../styles/roomOne.css'
 import { useEffect, useState } from 'react'
 import Inventory from './InventoryPopup'
 import VisibilityToggle from '../hooks/ToggleVisibility'
+import Modal from './Modals'
 
 
 
 function Camp(){
-    const { visibility, toggleVisibility } = VisibilityToggle()
+    const [isOpen, toggleModal] = useState(false)
 
     return(
         <>
@@ -19,7 +20,8 @@ function Camp(){
             <img src={Background} className="bgImg"/>
                 <div className='subContainer'>
                     <div className='interactBox'>
-                        <Inventory style={visibility}/>
+                        
+                        
 
                     </div>
 
@@ -29,7 +31,10 @@ function Camp(){
 
                 </div>
                 <div className='buttonBox'>
-                    <button onClick={toggleVisibility}>Inventory</button>
+                    <button onClick={() => toggleModal(!isOpen)}>Inventory</button>
+                        <Modal open={isOpen} >
+                            <Inventory/>
+                        </Modal>
                     <button>Search</button>
                     <button>Loot</button>
                     <button>Map</button>
