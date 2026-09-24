@@ -17,7 +17,9 @@ function Camp(){
     return(
         <>
             <div className='gameContainer'>
-            <img src={Background} className="bgImg"/>
+                <Link to='/stars'>
+                    <img src={Background} className="bgImg"/>
+                </Link>
                 <div className='subContainer'>
                     <div className='interactBox'>
                         

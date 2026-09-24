@@ -16,8 +16,10 @@ function Home(){
                         <button className='button'>START</button>
                     </Link>
                 </div>
+                <Link to='/stars'>
+                    <img src={Background} className="bgImg"/>
+                </Link>
                 
-                <img src={Background} className="bgImg"/>
                 
             </div>
             

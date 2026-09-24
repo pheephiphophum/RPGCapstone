@@ -7,7 +7,7 @@ function Modal({open, children}){
     
 
     return createPortal(
-        <div>
+        <div className="modalContainer">
             {children}
         </div>,
         document.body
