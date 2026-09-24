@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 import '../styles/inventory.css'
-import Modal from './Modals'
+import Modal from '../hooks/Modals'
 
 let itemsTemp
 // itemsTemp = ['sword', 'chestplate', 'booties', 'golden skull of rauhl', 'bagel', '1', '2', '3', '4', '5', '6', '7']
@@ -28,9 +28,9 @@ function Inventory({style}){
         <>
         
             <div className='inventoryOverlay' > 
-                <div className='craftingMenu'>
+                {/* <div className='craftingMenu'>
                     <p>crafting menu</p>
-                </div>
+                </div> */}
 
                 <div className='inventoryStorage'>
                     {itemsTemp.map((itemsTemp) => ( 

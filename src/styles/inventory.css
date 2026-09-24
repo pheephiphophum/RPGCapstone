@@ -1,6 +1,8 @@
 .inventoryOverlay{
     width: 75vw;
-    z-index: 10000;
+    height: 82.5vh;
+    z-index: 1000;
+    margin-left: 13.2vw;
 
 }                        
                         
@@ -10,8 +12,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     overflow-y: scroll;
-    height: 75vh;
-    width: 60%;
+    height: 100%;
+    width: 100%;
     align-content: start;
     
     background-color: white;

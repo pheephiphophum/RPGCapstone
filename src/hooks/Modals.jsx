@@ -1,5 +1,6 @@
 import { createPortal } from "react-dom";
 import { useState } from "react";
+import '../styles/modal.css'
 
 function Modal({open, children}){
     console.log('isopen', open)
@@ -7,7 +8,7 @@ function Modal({open, children}){
     
 
     return createPortal(
-        <div className="modalContainer">
+        <div className="modalContainer" >
             {children}
         </div>,
         document.body
