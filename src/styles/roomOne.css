@@ -3,51 +3,22 @@
     width: 100%;
 }
 
-.gameContainer{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5vw;
-    margin-top: 5vh;
-    margin-right: 5vw;
-    margin-bottom: 5vh;
-    
-    padding-left: 0vw;
-    padding-top: 0vh;
-    padding-right: 0vw;
-    padding-bottom: 0vh;
-}
-
-.subContainer{
-    display: flex;
-    max-width: 90vw;
-    padding: 0;
- 
-}
-
 .interactBox{
-    background-color: brown;
+    background-color: rgb(91, 42, 165);
     border: 2px solid black;
-    margin-right: 0;
-    margin-left: 0;
-
-
-    height: 75vh;
-    width: 75vw;
-    max-width: 75vw;
-}
-
-.statBox{
-    background-color: yellowgreen;
-    border: 2px solid green;
-
-
-    height: 75vh;
-    width: 15vw;
+    position: fixed;
+    bottom: 17%;
+    margin-left: 14rem;
+    height: 49.8rem;
+    width: 75%;
 }
 
 .buttonBox{
     background-color: tomato;
     border: 2px solid red;
-
-    height: 15vh;
+    height: 17%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
