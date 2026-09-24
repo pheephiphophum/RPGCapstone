@@ -1,23 +1,23 @@
 .bgImg {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 .interactBox{
     background-color: rgb(91, 42, 165);
     border: 2px solid black;
     position: fixed;
-    bottom: 17%;
-    margin-left: 14rem;
-    height: 49.8rem;
-    width: 75%;
+    bottom: 17vh;
+    margin-left: 12.5vw;
+    height: 83vh;
+    width: 75vw;
 }
 
 .buttonBox{
     background-color: tomato;
     border: 2px solid red;
-    height: 17%;
-    width: 100%;
+    height: 17vh;
+    width: 100vw;
     position: fixed;
     bottom: 0;
     left: 0;

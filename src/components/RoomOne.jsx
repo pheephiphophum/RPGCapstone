@@ -6,7 +6,7 @@ import '../styles/roomOne.css'
 import { useEffect, useState } from 'react'
 import Inventory from './InventoryPopup'
 import VisibilityToggle from '../hooks/ToggleVisibility'
-import Modal from './Modals'
+import Modal from '../hooks/Modals'
 
 
 
@@ -15,7 +15,9 @@ function Camp(){
 
     return(
         <>
-            <img src={Background} className="bgImg"/>
+            <Link to='/stars'>
+                <img src={Background} className="bgImg"/>
+            </Link>
             <div className='interactBox'>
                 <p>HELLOOOO HELLOOO HELLLOOOOO</p>
             </div>
