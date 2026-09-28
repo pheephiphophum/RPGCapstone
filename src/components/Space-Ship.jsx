@@ -14,7 +14,7 @@ import Map from './Map'
 
 
 
-function Ship(){
+function SpaceShip(){
     const [isOpen, setIsOpen] = useState(false)
 
     const [mapImage, setMapImage] = useState(MapHappy)
@@ -57,4 +57,4 @@ function Ship(){
     )
 }
 
-export default Ship
+export default SpaceShip
