@@ -12,7 +12,7 @@ function Home(){
                     <h1>They're Coming...</h1>
                     <h2>Can You Survive?</h2>
                     <p>An apocolypse survival, puzzle RPG Roguelike</p>
-                    <Link to='/roomone'>
+                    <Link to='/spaceship'>
                         <button className='button'>START</button>
                     </Link>
                 </div>

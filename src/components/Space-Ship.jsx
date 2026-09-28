@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import ProfileIcon from '../assets/download20260905131048.png'
 import Background from '../assets/stars.gif'
-import '../styles/roomOne.css'
+import '../styles/spaceShip.css'
 import Inventory from './InventoryPopup'
 import VisibilityToggle from '../hooks/ToggleVisibility'
 import Modal from '../hooks/Modals'
@@ -14,7 +14,7 @@ import Map from './Map'
 
 
 
-function Camp(){
+function Ship(){
     const [isOpen, setIsOpen] = useState(false)
 
     const [mapImage, setMapImage] = useState(MapHappy)
@@ -57,4 +57,4 @@ function Camp(){
     )
 }
 
-export default Camp
+export default Ship
