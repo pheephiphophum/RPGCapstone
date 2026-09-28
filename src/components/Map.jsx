@@ -1,10 +1,12 @@
 import '../styles/map.css'
-import { createPortal } from 'react-dom'
+
 
 function Map({ children }){
-    return createPortal(
-        children,                      // what to render
-        document.getElementById('map-modal-root')   // where to put it
+    return (
+        <div className='mapHolder'>
+            <p>im here im here im here</p>
+            <img />
+        </div>
     )
 }
 
