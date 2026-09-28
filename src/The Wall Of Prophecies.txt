@@ -1,23 +1,15 @@
 -=-=-=-=-=-=-=-=-=-=-=-=- LIST OF TODOS
 
-THING WE NEED/WANT TO DO 
 Fix the css so it works for all screens - CHECK
-Make data tables for items, weapons, and armors
-Make classes for enemies and the player
-MAYBE make a form so the player can change the name of the MC 
+Make data tables for items
 CSS for the buttons
 Logic for the buttons 
-Quicktime event for battles
-XP mechanic 
+Quicktime events 
 Artwork for box/background decorations
 Artwork for the map and locations
 Inventory screen 
-Crafting mechanic and menu
-Remove item option for inventory
 Importing sound effects from deltarune/undertale and other places
 Modal for map
-Modal for inventory
-Modal for introduction
 Coordinate tracking for the mouse
 
 -=-=-=-=-=-=-=-=-=-=-=-=- EDITS 
