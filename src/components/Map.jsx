@@ -1,11 +1,11 @@
 import '../styles/map.css'
+import spaceshipMap from '../assets/spaceshipMap2.png'
 
 
 function Map({ children }){
     return (
         <div className='mapHolder'>
-            <p>im here im here im here</p>
-            <img />
+            <img src={spaceshipMap} className='mainMap'/>
         </div>
     )
 }

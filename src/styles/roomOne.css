@@ -11,6 +11,7 @@
     margin-left: 12vw;
     height: 83vh;
     width: 75vw;
+    z-index: 5;
 }
 
 .buttonBox{
@@ -23,6 +24,7 @@
     position: fixed;
     bottom: 0;
     left: 0;
+    z-index: 7;
 }
 
 .mapButton{
