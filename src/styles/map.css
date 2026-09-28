@@ -1,0 +1,9 @@
+.mapHolder{
+    position: fixed;
+    background-color: aquamarine;
+    width: 75vw;
+    height: 83vh;
+    z-index: inherit;
+    display: flex;
+    justify-self: center;
+}

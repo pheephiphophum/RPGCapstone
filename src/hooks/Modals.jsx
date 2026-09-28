@@ -3,7 +3,7 @@ import { useState } from "react";
 import '../styles/modal.css'
 
 function Modal({open, children}){
-    console.log('isopen', open)
+  
     if (!open) return null;
     
 
