@@ -1,8 +1,8 @@
 .inventoryOverlay{
     width: 75vw;
-    height: 82.5vh;
+    height: 17vh;
     z-index: 1000;
-    margin-left: 13.2vw;
+    margin-left: 12.5vw;
 
 }                        
                         
@@ -10,8 +10,8 @@
 .inventoryStorage   {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    overflow-y: scroll;
+    
+    overflow-x: scroll;
     height: 100%;
     width: 100%;
     align-content: start;
@@ -23,10 +23,11 @@
 .item{
     border: 2px solid black ;
     border-radius: 1rem;
-    width: 4rem;
-    height: 4rem;
-    padding: 0.5rem;
-    margin: 0.5rem;
+    min-width: 10vh;
+    width: 10vh;
+    height: 10vh;
+    padding: 1vh;
+    margin: 1vh;
     text-align: center;
     background-color: orange;
 }
