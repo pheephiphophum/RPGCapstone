@@ -14,8 +14,24 @@ import ScienceLab from "../components/rooms/ScienceLab"
 import StorageRoom from "../components/rooms/StorageRoom"
 
 
+// import '../../styles/roomStyles.css'
+
+// function ({setScene}){
+
+//     return(
+//         <p>This is a room.</p>
+//     )
+// }
+
+// export default 
+
+// ^^^ preset for empty room ^^^
+
+
 
 function SelectScene({scene, setScene}){
+
+    
 
 
     return(

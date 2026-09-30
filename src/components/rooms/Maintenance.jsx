@@ -1,10 +1,10 @@
 import '../../styles/roomStyles.css'
 
-function Dorm1({setScene}){
+function Maintenance({setScene}){
 
     return(
         <p>This is a room.</p>
     )
 }
 
-export default Dorm1
+export default Maintenance
