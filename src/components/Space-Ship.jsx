@@ -12,6 +12,8 @@ import MapEvil from '../assets/Map-evil.png'
 import MapDistressed from '../assets/Map-distressed.png'
 import Map from './Map'
 import SelectScene from '../hooks/SceneSelector'
+import ImTheMap from '../assets/Im-the-map.mp3'
+import ImTheMAAAAp from '../assets/Im-the-MAAAAp.mp3'
 
 
 
@@ -22,11 +24,17 @@ function SpaceShip(){
 
     const [currentScene, setCurrentScene] = useState('medbay')
 
+    const [mapSound, setMapSound] = useState(ImTheMAAAAp)
+
+    const mappy = new Audio(mapSound)
+
     let mapHover = false
 
     function mapClick(){
+        mappy.play()
         setIsOpen(!isOpen)
         decideMapImage(true, !isOpen)
+        mapSound == ImTheMAAAAp ? setMapSound(ImTheMap) : setMapSound(ImTheMAAAAp)
     }
 
     function decideMapImage(hover, open){
