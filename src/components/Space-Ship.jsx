@@ -11,6 +11,7 @@ import MapHappy from '../assets/Map-happy.png'
 import MapEvil from '../assets/Map-evil.png'
 import MapDistressed from '../assets/Map-distressed.png'
 import Map from './Map'
+import SelectScene from '../hooks/SceneSelector'
 
 
 
@@ -18,6 +19,9 @@ function SpaceShip(){
     const [isOpen, setIsOpen] = useState(false)
 
     const [mapImage, setMapImage] = useState(MapHappy)
+
+    const [currentScene, setCurrentScene] = useState('medbay')
+
     let mapHover = false
 
     function mapClick(){
@@ -42,6 +46,7 @@ function SpaceShip(){
                 <img src={Background} className="bgImg"/>
             </Link>
             <div className='interactBox'>
+                <SelectScene scene={currentScene} setScene={setCurrentScene}/>
                 <Modal open={isOpen}>
                     <Map />
                 </Modal>
