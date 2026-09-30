@@ -1,4 +1,4 @@
-
+import '../../styles/roomStyles.css'
 
 function CommonRoom({setScene}){
 

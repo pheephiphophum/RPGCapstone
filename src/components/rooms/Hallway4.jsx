@@ -1,4 +1,4 @@
-
+import '../../styles/roomStyles.css'
 
 function Hallway4({setScene}){
     return(
