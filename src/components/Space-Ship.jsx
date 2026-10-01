@@ -14,6 +14,7 @@ import Map from './Map'
 import SelectScene from '../hooks/SceneSelector'
 import ImTheMap from '../assets/Im-the-map.mp3'
 import ImTheMAAAAp from '../assets/Im-the-MAAAAp.mp3'
+import TransitionSfx from '../assets/door-sfx.mp3'
 
 
 
@@ -29,6 +30,14 @@ function SpaceShip(){
     const mappy = new Audio(mapSound)
 
     let mapHover = false
+
+    const TransitionSound = new Audio(TransitionSfx)
+
+    useEffect(() => {
+        TransitionSound.play()
+    }, [currentScene])
+
+  
 
     function mapClick(){
         mappy.play()
@@ -54,7 +63,7 @@ function SpaceShip(){
                 <img src={Background} className="bgImg"/>
             </Link>
             <div className='interactBox'>
-                <SelectScene scene={currentScene} setScene={setCurrentScene}/>
+                <SelectScene  scene={currentScene} setScene={setCurrentScene}/>
                 <Modal open={isOpen}>
                     <Map />
                 </Modal>

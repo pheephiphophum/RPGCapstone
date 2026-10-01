@@ -14,6 +14,8 @@ import ScienceLab from "../components/rooms/ScienceLab"
 import StorageRoom from "../components/rooms/StorageRoom"
 
 
+
+
 // import '../../styles/roomStyles.css'
 
 // function ({setScene}){
@@ -30,8 +32,8 @@ import StorageRoom from "../components/rooms/StorageRoom"
 
 
 function SelectScene({scene, setScene}){
-
     
+
 
 
     return(
