@@ -50,4 +50,12 @@ puzzle ideas:
 * open cargo bay to shloup
 * some iteration of those wire puzzles because why not
 * broom sifting
-* make some chemical in the labratory that opens doors
+* make some chemical in the labratory that opens doors (blood)
+* repair the escape pod
+* find a spacesuit and make it compatible with you
+* unlock the bridge (blood) to enable the escape pod
+* unlock the maintenence room (blood) to reroute power to escape pod
+* turn lights off to trigger aliens 'sleep mode' so you can KILL
+* heavy object onto the sleepy alien in the broom closet.
+* bunsen flamethrower
+* 
