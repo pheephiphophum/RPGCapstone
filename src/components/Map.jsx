@@ -1,5 +1,5 @@
 import '../styles/map.css'
-import spaceshipMap from '../assets/spaceshipMap3.png'
+import spaceshipMap from '../assets/GUI/spaceshipMap3.png'
 
 
 function Map({ children }){
