@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import { Link, useNavigate } from 'react-router-dom'
-import Background from '../assets/stars.gif'
+import Background from '../assets/GUI/stars.gif'
 import "../styles/Home.css"
 
 function Home(){
@@ -9,9 +9,9 @@ function Home(){
         <>
             <div className='homeScreen'>
                 <div className='blackBox'>
-                    <h1>They're Coming...</h1>
-                    <h2>Can You Survive?</h2>
-                    <p>An apocolypse survival, puzzle RPG Roguelike</p>
+                    <h1>Can you escape ?</h1>
+                    <h2>Or will you be.. probed</h2>
+                    <p>A space-themed point and click puzzle RPG escape room</p>
                     <Link to='/spaceship'>
                         <button className='button'>START</button>
                     </Link>

@@ -1,4 +1,4 @@
-import Background from '../assets/stars.gif'
+import Background from '../assets/GUI/stars.gif'
 import { Link } from 'react-router-dom'
 import '../styles/stars.css'
 
