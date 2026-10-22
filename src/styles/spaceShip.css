@@ -32,6 +32,25 @@
  padding-right: 2.5vw;
 }
 
+.mergeButton{
+    position: absolute;
+    height: 15vh;
+    width: 15vh;
+    min-width: 12vh;
+    border-radius: 100vw;
+    left: 2.5vw;
+    top: 5%;
+    background-color: red;
+    color: white;
+    font-size: 2vw;
+    border: 2px solid black;
+}
+
+.mergeButton:hover{
+    background-color: #ff3e3e;
+}
+
+ 
 .medBayImg{
     position: relative;
     height: 100%;

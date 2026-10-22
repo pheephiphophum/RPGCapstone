@@ -85,6 +85,8 @@ function SpaceShip(){
                 </Modal>
             </div>
             <div className='buttonBox'>
+                <button className='mergeButton' > Merge </button>
+
                 <Inventory/>
                 
                 <img onClick={mapClick} onMouseOver={() => decideMapImage(true, isOpen)} onMouseLeave={() => decideMapImage(false, isOpen)} src={mapImage} className='mapButton'/>
