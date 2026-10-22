@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react'
 
 import '../styles/inventory.css'
@@ -9,33 +10,39 @@ let itemsTemp
 // itemsTemp = []
 itemsTemp = ['sword', 'chestplate', 'booties', 'golden skull of rauhl', 'bagel', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50']
 
-const craftsTemp = [{
-        item: 'stick',
-        ingredients: [[2, 'twig'], [1, 'duct tape']]
-    }, {
-        item: 'sword',
-        ingredients: [[2, 'stick'], [3, 'steel sheet']]
-    }]
 
-function Inventory({style}){
 
-    const craftsList = craftsTemp 
 
-  
+
+function Inventory(){
+    
+
+    // function toggleSelect(item){
+    //     setIsSelected('selectedItem')
+    //     console.log('i was clicked', item, isSelected)
+
+    // }
+
+    function InventoryItem({key}){
+
+        const [isSelected, setIsSelected] = useState('item')
+        return (
+        
+                <div key={key} className={isSelected} >{key}</div>
+            )
+        
+        
+
+    }
 
     
     return (
         <>
         
             <div className='inventoryOverlay' > 
-                {/* <div className='craftingMenu'>
-                    <p>crafting menu</p>
-                </div> */}
 
                 <div className='inventoryStorage'>
-                    {itemsTemp.map((itemsTemp) => ( 
-                        <div key={itemsTemp} className='item'>{itemsTemp}</div>
-                    ))}
+                    {itemsTemp.map(itemTemp => <InventoryItem key={itemTemp} />)}
                 </div>
                 
             </div>
