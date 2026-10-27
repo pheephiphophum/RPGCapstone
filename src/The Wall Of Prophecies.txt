@@ -73,3 +73,17 @@ viles of stuff that you have to mix in a thingymabobber
 
 honestly i have no idea what other puzzles besides getting the stuff from the closet and making the fluid to kill the guard or something idk 
 maybe I should work on dialogue first lmaoooooooooooooooooooo
+
+
+const trackMouseMove = (event) => {
+        if (!interactBoxRef.current) return
+
+        const rect = interactBoxRef.current.getBoundingClientRect()
+
+        setCoords({
+            x: event.clientX - rect.left,
+            y: event.clientY - rect.top,
+        })
+    }
+const [coords, setCoords] = useState({ x: 0, y: 0 })
+
