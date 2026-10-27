@@ -13,7 +13,6 @@ import SelectScene from '../hooks/SceneSelector'
 import ImTheMap from '../assets/SFX/Im-the-map.mp3'
 import ImTheMAAAAp from '../assets/SFX/Im-the-MAAAAp.mp3'
 import TransitionSfx from '../assets/SFX/door-sfx.mp3'
-import MedBayMap from '../assets/roomMaps/medbayMap.png'
 import '../styles/spaceShip.css'
 
 
@@ -22,7 +21,6 @@ function SpaceShip(){
     const [mapImage, setMapImage] = useState(MapHappy)
     const [currentScene, setCurrentScene] = useState('medbay')
     const [mapSound, setMapSound] = useState(ImTheMAAAAp)
-    const [coords, setCoords] = useState({ x: 0, y: 0 })
     
     const interactBoxRef = useRef(null)
 
@@ -53,32 +51,13 @@ function SpaceShip(){
         }
     }
 
-    const trackMouseMove = (event) => {
-        if (!interactBoxRef.current) return
-
-        const rect = interactBoxRef.current.getBoundingClientRect()
-
-        setCoords({
-            x: event.clientX - rect.left,
-            y: event.clientY - rect.top,
-        })
-    }
-
     return(
         <>
             <Link to='/stars'>
                 <img src={Background} className="bgImg"/>
             </Link>
-            <div 
-            className='interactBox'
-            ref={interactBoxRef}
-            onPointerMove={trackMouseMove}
-            style={{
-                cursor: 'crosshair'
-            }}
-            >
+            <div className='interactBox'>
                 <SelectScene  scene={currentScene} setScene={setCurrentScene}/>
-                <img src={MedBayMap} className='medBayImg'/>
 
                 <Modal open={isOpen}>
                     <Map />

@@ -12,6 +12,7 @@ import MedBay from "../components/rooms/MedBay"
 import MessHall from "../components/rooms/MessHall"
 import ScienceLab from "../components/rooms/ScienceLab"
 import StorageRoom from "../components/rooms/StorageRoom"
+import MedBayBroomCloset from "../components/rooms/MedBayBroomCloset"
 
 
 
@@ -52,6 +53,7 @@ function SelectScene({scene, setScene}){
         scene == 'hallway3' ? <Hallway3 setScene={setScene}/> :
         scene == 'hallway4' ? <Hallway4 setScene={setScene}/> :
         scene == 'medbay' ? <MedBay setScene={setScene}/> : 
+        scene == 'broomcloset' ? <MedBayBroomCloset setScene={setScene} /> :
         scene == 'messhall' ? <MessHall setScene={setScene}/> :
         scene == 'sciencelab' ? <ScienceLab setScene={setScene}/> :
         scene == 'storageroom' ? <StorageRoom setScene={setScene}/> :
