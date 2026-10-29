@@ -74,6 +74,14 @@ viles of stuff that you have to mix in a thingymabobber
 honestly i have no idea what other puzzles besides getting the stuff from the closet and making the fluid to kill the guard or something idk 
 maybe I should work on dialogue first lmaoooooooooooooooooooo
 
+Ethan edit 10-29-26
+E.B.O.R.P:
+
+Extraterrestial 
+Bio-matter 
+Obtainer, 
+Researcher, and 
+Packager
 
 const trackMouseMove = (event) => {
         if (!interactBoxRef.current) return
