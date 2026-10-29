@@ -30,6 +30,18 @@
     background-color: rgb(149, 172, 183);
 }
 
+.selectedItem{
+    border: 2px solid black ;
+    border-radius: 1rem;
+    min-width: 10vh;
+    width: 10vh;
+    height: 10vh;
+    padding: 1vh;
+    margin: 2vh;
+    text-align: center;
+    background-color: rgb(196, 91, 73);
+}
+
 .craftingMenu{
     display: flex;
     width: 40%;
