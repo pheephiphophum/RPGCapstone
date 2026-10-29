@@ -2,14 +2,20 @@ const items = [
     {
         name: "Glass Bottle",
         id: 1,
-        mergeable: false,
+        mergeable: true,
         selected: false
     },
     {
         name: "Syringe",
         id: 2,
-        mergeable: true,
-        selected: isSelected
+        mergeable: false
+        selected: false
+    },
+    {
+        name: "Blood Sample",
+        id: 3,
+        mergeable: false,
+        selected: false
     }
 ]
 

@@ -82,3 +82,16 @@ Bio-matter
 Obtainer, 
 Researcher, and 
 Packager
+
+const trackMouseMove = (event) => {
+        if (!interactBoxRef.current) return
+
+        const rect = interactBoxRef.current.getBoundingClientRect()
+
+        setCoords({
+            x: event.clientX - rect.left,
+            y: event.clientY - rect.top,
+        })
+    }
+const [coords, setCoords] = useState({ x: 0, y: 0 })
+
