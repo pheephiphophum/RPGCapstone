@@ -3,7 +3,7 @@
     border: 2px solid black;
     position: fixed;
     bottom: 17vh;
-    margin-left: 12vw;
+    margin-left: 0vw;
     height: 83vh;
     width: 75vw;
     z-index: 5;
@@ -15,6 +15,24 @@
     width: 100%;
 }
 
+.boxImg{
+    height: 100vh;
+    width: 100vw;
+}
+
+.dialogueBox{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(65, 51, 94);
+    border: 2px solid rgb(22, 22, 63);
+    height: 17vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 7;
+}
+
 .invisGuyBox{
     background-color: rgba(0, 255, 0, 0);
     /* background-color: black; */
@@ -24,9 +42,8 @@
     height: 25vh;
     width: 10vw;
     
-    margin-left: 25vw;
+    margin-left: 14vw;
     margin-top: 35vh;
-
 }
 
 .invisGuyFeetBox{
@@ -38,6 +55,6 @@
     height: 12vh;
     width: 15vw;
 
-    margin-left: 27vw;
+    margin-left: 15vw;
     margin-top: 55vh;
 }

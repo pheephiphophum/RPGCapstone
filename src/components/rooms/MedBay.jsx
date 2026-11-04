@@ -7,8 +7,12 @@ function MedBay({setScene}){
 
     return(
         <>
-            <div onClick={() => setScene('hallway4')} className='mapBox'>
+            <div className='mapBox'>
                 <img src={MedBayMap} className='medBayImg'/>
+            </div>
+
+            <div onClick={() => setScene('broomcloset')} className='doorClicky'>
+
             </div>
         </>
     )

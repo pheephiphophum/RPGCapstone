@@ -87,3 +87,9 @@ const trackMouseMove = (event) => {
     }
 const [coords, setCoords] = useState({ x: 0, y: 0 })
 
+
+drawings that we need
+- closeup of the pod
+- closeup of the computer (and all the other shits)
+- closeup of the desk 
+
