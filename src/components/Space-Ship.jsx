@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import { Link, useNavigate } from 'react-router-dom'
 import { useEffect, useState, useRef } from 'react'
+import DialogueModal from '../context/DialogueModal'
 import Background from '../assets/GUI/stars.gif'
 import Inventory from './InventoryPopup'
 import VisibilityToggle from '../hooks/ToggleVisibility'
